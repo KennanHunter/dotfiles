@@ -1,0 +1,12 @@
+font:
+    normal:
+      style: Light
+      family: "Fira Code"
+
+    bold:
+      style: Medium
+      family: "Fira Code"
+
+    italic:
+      style: "Light Italic"
+      family: "Fira Code"
