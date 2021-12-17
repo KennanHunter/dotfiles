@@ -79,12 +79,6 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-# focus the parent container
-bindsym $mod+a focus parent
-
-# focus the child container
-#bindsym $mod+d focus child
-
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -131,9 +125,11 @@ bindsym $mod+Alt+e exec "i3-msg exit"
 
 bindsym $mod+Tab exec "rofi -show window"
 bindsym $mod+o exec "discord"
-bindsym $mod+shift+o exec "pkill Discord"
+
+# Discord likes to have 20 processes open
+bindsym $mod+shift+o exec "pkill Discord && pkill Discord && pkill Discord"
+
 bindsym $mod+m exec "amixer set Master toggle"
-# bindsym $mod+shift+backspace exec "slock"
 bindsym $mod+p exec "firefox"
 bindsym $mod+shift+p exec "firefox --private-window"
 bindsym $mod+shift+x exec "betterlockscreen -l dim"
@@ -148,12 +144,19 @@ bindsym $mod+ctrl+j exec "mpc prev"
 bindsym $mod+ctrl+l exec "mpc next"
 bindsym $mod+ctrl+i exec "~/.config/i3/current.sh"
 
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+a move scratchpad
 
+# Show the first scratchpad window
+bindsym $mod+a scratchpad show
 
+#bindsym $mod+shift+bracketleft exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/favorites/"
+#bindsym $mod+shift+bracketright exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/slightlylewd/UPW5nVe.png"
 bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/wallpapers/keyboards.jpg"
 bindsym $mod+shift+backslash exec "chooseWallpaper.sh"
 
 bindsym $mod+slash exec "i3lock -c 000000ff"
+# bindsym $mod+bracketleft exec "firefox"
 
 
 
