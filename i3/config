@@ -158,6 +158,8 @@ bindsym $mod+shift+backslash exec "chooseWallpaper.sh"
 bindsym $mod+slash exec "i3lock -c 000000ff"
 # bindsym $mod+bracketleft exec "firefox"
 
+bindsym $mod+shift+f exec "flameshot full -p ~/Pictures/screenshots/"
+bindsym $mod+shift+g exec "flameshot gui"
 
 
 # resize window (you can also use the mouse for that)
