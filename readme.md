@@ -4,9 +4,9 @@ Welcome to the official Kennan Hunter dotfile repo
 
 ## Installation process
 
-`cp ./vim/.vimrc ./.vimrc`
+`cp ./vim/.vimrc ~/.vimrc`
 
-`cp ./zsh/.zshrc ./.zshrc`
+`cp ./zsh/.zshrc ~/.zshrc`
 
 `cp ./i3 ./kitty ./alacritty ./polybar ./wal ~/.config`
 
