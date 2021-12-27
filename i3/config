@@ -139,6 +139,12 @@ bindsym $mod+x exec "~/bin/power.sh"
 bindcode $mod+21 exec "brightnessctl set +%5"
 bindcode $mod+20 exec "brightnessctl set -%5"
 
+bindsym $mod+n exec "pactl set-sink-volume @DEFAULT_SINK@ +5%"
+bindsym $mod+b exec "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+bindsym $mod+shift+n exec "mpc volume +5" 
+bindsym $mod+shift+b exec "mpc volume -5"
+
+
 bindsym $mod+ctrl+k exec "mpc toggle"
 bindsym $mod+ctrl+j exec "mpc prev"
 bindsym $mod+ctrl+l exec "mpc next"
