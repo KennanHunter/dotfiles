@@ -2,6 +2,10 @@
 
 Welcome to the official Kennan Hunter dotfile repo
 
+## Screenshots
+
+<img src="./screenshots/2021-12-27_01-17.png">
+
 ## Installation process
 
 `cp ./vim/.vimrc ~/.vimrc`
@@ -14,23 +18,22 @@ Welcome to the official Kennan Hunter dotfile repo
 
 ## Dependencies
 
-- zsh
-- alacritty
-- kitty
-- vim
-- i3-gaps
-- polybar
-- pywal
-- pywal-discord
-- pywal-fox
-- betterlockscreen
-- dmenu
-- rofi
-- firefox 
-- mopidy
-- discord
-- betterdiscord
-
+-   zsh
+-   alacritty
+-   kitty
+-   vim
+-   i3-gaps
+-   polybar
+-   pywal
+-   pywal-discord
+-   pywal-fox
+-   betterlockscreen
+-   dmenu
+-   rofi
+-   firefox
+-   mopidy
+-   discord
+-   betterdiscord
 
 ## Other repos
 
