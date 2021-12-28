@@ -217,5 +217,4 @@ exec mopidy &
 exec polybar mystatus &
 exec picom -o 0.95 -D 4 &
 exec wall -R &
-exec mpd_discord_richpresence &
 # exec conky -d &
