@@ -1,0 +1,4 @@
+configuration {
+	font: "Fira Code 12";
+}
+@theme "~/.cache/wal/colors-rofi-light.rasi"
