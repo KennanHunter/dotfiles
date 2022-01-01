@@ -12,7 +12,7 @@ Welcome to the official Kennan Hunter dotfile repo
 
 `cp ./zsh/.zshrc ~/.zshrc`
 
-`cp ./i3 ./kitty ./alacritty ./polybar ./wal ./rofi ~/.config`
+`cp ./i3 ./kitty ./alacritty ./polybar ./wal ./rofi ./conky ~/.config`
 
 `cp ./wallpaper-scripts ~/bin`
 
