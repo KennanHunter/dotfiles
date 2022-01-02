@@ -1,5 +1,5 @@
 #/bin/bash
-selection=$(echo -e "favorite\nrandom wallpaper\nlewd\nrandom meh\nspecific meh\nportrait\nlinus" | rofi -dmenu)
+selection=$(echo -e "favorite\nrandom wallpaper\nlewd\ngood\nportrait\nlinus" | rofi -dmenu)
 
 case $selection in
 "favorite")
@@ -14,11 +14,7 @@ case $selection in
 	~/bin/update_wallpaper.sh ~/Pictures/wallpapers
 	;;
 
-"random meh")
-	~/bin/update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/good/
-	;;
-
-"specific meh")
+"good")
 	~/bin/chooseSubmenu.sh ~/Pictures/anime/AnimeBackgrounds/good/
 	;;
 
