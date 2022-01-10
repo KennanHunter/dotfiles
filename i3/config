@@ -33,7 +33,7 @@ bindsym $mod+Shift+Return exec alacritty
 
 bindsym $mod+Shift+q kill
 
-bindsym $mod+shift+d exec --no-startup-id dmenu_run -fn "Fira Code"
+bindsym $mod+shift+d exec --no-startup-id dmenu_run -fn "Fira Code" -nb "$bg" -nf "$fg" -sb "$fg" -sf "$bg"
 bindsym $mod+d exec --no-startup-id rofi -show run -hide-scrollbar -disable-history 
 
 bindsym $mod+h focus left
