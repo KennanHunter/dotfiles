@@ -141,8 +141,10 @@ bindcode $mod+20 exec "brightnessctl set -%5"
 
 bindsym $mod+n exec "pactl set-sink-volume @DEFAULT_SINK@ +5%"
 bindsym $mod+b exec "pactl set-sink-volume @DEFAULT_SINK@ -5%"
-bindsym $mod+shift+n exec "mpc volume +5" 
-bindsym $mod+shift+b exec "mpc volume -5"
+bindsym $mod+ctrl+n exec "mpc volume +5" 
+bindsym $mod+ctrl+b exec "mpc volume -5"
+
+bindsym ctrl+space exec "dunstctl close-all"
 
 
 bindsym $mod+ctrl+k exec "mpc toggle"
@@ -158,7 +160,7 @@ bindsym $mod+a scratchpad show
 
 #bindsym $mod+shift+bracketleft exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/favorites/"
 #bindsym $mod+shift+bracketright exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/slightlylewd/UPW5nVe.png"
-bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/wallpapers/keyboards.jpg"
+bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/good/bigboy.jpg" 
 bindsym $mod+shift+backslash exec "chooseWallpaper.sh"
 
 bindsym $mod+slash exec "i3lock -c 000000ff"
