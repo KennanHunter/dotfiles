@@ -158,9 +158,7 @@ bindsym $mod+Shift+a move scratchpad
 # Show the first scratchpad window
 bindsym $mod+a scratchpad show
 
-#bindsym $mod+shift+bracketleft exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/favorites/"
-#bindsym $mod+shift+bracketright exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/slightlylewd/UPW5nVe.png"
-bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/anime/AnimeBackgrounds/good/bigboy.jpg" 
+bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/wallpapers" 
 bindsym $mod+shift+backslash exec "chooseWallpaper.sh"
 
 bindsym $mod+slash exec "i3lock -c 000000ff"
