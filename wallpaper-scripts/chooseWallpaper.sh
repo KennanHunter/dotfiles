@@ -2,10 +2,6 @@
 selection=$(echo -e "favorite\nrandom wallpaper\nlewd\ngood\nportrait\nlinus" | rofi -dmenu)
 
 case $selection in
-"favorite")
-	~/bin/chooseSubmenu.sh ~/Pictures/anime/AnimeBackgrounds/favorites/
-	;;
-
 "lewd")
 	~/bin/chooseSubmenu.sh ~/Pictures/anime/AnimeBackgrounds/slightlylewd/
 	;;

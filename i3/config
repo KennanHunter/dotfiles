@@ -127,7 +127,7 @@ bindsym $mod+Tab exec "rofi -show window"
 bindsym $mod+o exec "discord"
 
 # Discord likes to have 20 processes open
-bindsym $mod+shift+o exec "pkill Discord && pkill Discord && pkill Discord"
+bindsym $mod+shift+o exec "pkill Discord ; pkill Discord ; pkill Discord ; pkill premid"
 
 bindsym $mod+m exec "amixer set Master toggle"
 bindsym $mod+p exec "firefox"
