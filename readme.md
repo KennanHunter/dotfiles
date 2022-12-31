@@ -16,7 +16,7 @@ Welcome to the official Kennan Hunter dotfile repo
 
 `cp -r ./i3 ./kitty ./alacritty ./polybar ./wal ./rofi ./conky ./neofetch ~/.config`
 
-`cp -r ./wallpaper-scripts ~/bin`
+`cp -r ./bin ~/bin`
 
 ## Dependencies
 
