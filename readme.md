@@ -14,9 +14,9 @@ Welcome to the official Kennan Hunter dotfile repo
 
 `cp ./x/.xinitrc ~/.xinitrc`
 
-`cp ./i3 ./kitty ./alacritty ./polybar ./wal ./rofi ./conky ~/.config`
+`cp -r ./i3 ./kitty ./alacritty ./polybar ./wal ./rofi ./conky ./neofetch ~/.config`
 
-`cp ./wallpaper-scripts ~/bin`
+`cp -r ./wallpaper-scripts ~/bin`
 
 ## Dependencies
 

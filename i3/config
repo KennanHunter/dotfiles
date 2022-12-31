@@ -158,14 +158,14 @@ bindsym $mod+Shift+a move scratchpad
 # Show the first scratchpad window
 bindsym $mod+a scratchpad show
 
-bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/wallpapers" 
+bindsym $mod+backslash exec "update_wallpaper.sh ~/Pictures/special/catwindowsill.jpg" 
 bindsym $mod+shift+backslash exec "chooseWallpaper.sh"
 
 bindsym $mod+slash exec "i3lock -c 000000ff"
 # bindsym $mod+bracketleft exec "firefox"
 
 bindsym $mod+shift+f exec "flameshot full -p ~/Pictures/screenshots/"
-bindsym $mod+shift+g exec "flameshot gui"
+bindsym $mod+shift+g exec "flameshot gui -p ~/Pictures/screenshots/"
 
 
 # resize window (you can also use the mouse for that)
@@ -210,6 +210,7 @@ new_float pixel 1
 
 for_window [class="Firefox"] move container to $ws1
 exec --no-startup-id firefox
+
 
 
 exec batsignal &

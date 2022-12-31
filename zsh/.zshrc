@@ -4,6 +4,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$HOME/node_modules/.bin/
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kennan/.oh-my-zsh"
@@ -37,6 +38,7 @@ export EDITOR='vim'
 
 # ZSH Aliases
 alias ls="exa -lah --git --group-directories-first"
+alias pn="pnpm"
 alias grep="rg"
 alias cbs="update_wallpaper.sh"
 alias c="clear"
@@ -50,7 +52,12 @@ alias musicdl="youtube-dl -xi -o '%(title)s.%(ext)s' --add-metadata"
 alias du="dust"
 alias rls="echo \"You probably didn't mean to do that, if so use (backslash)rls\" "
 alias sl="sl | lolcat"
-alias weebfetch="neofetch --kitty --source ~/Pictures/lambda-wallpapers/neofetch/normal"
+alias weebfetch="neofetch --kitty --source ~/Pictures/anime/square"
 alias dc="docker compose"
 alias bright="brightnessctl set"
 alias r="source ~/.zshrc"
+
+# pnpm
+export PNPM_HOME="/home/kennan/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
