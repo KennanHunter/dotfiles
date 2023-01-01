@@ -2,7 +2,7 @@
 selection=$(echo -e "shutdown\nreboot" | rofi -dmenu)
 
 case $selection in
-"shut off")
+"shutdown")
 	shutdown now 
 	;;
 
