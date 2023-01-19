@@ -1,7 +1,5 @@
 # Dotfiles
 
-Welcome to the official Kennan Hunter dotfile repo
-
 ## Screenshots
 
 <img src="./screenshots/2021-12-27_01-17.png">
