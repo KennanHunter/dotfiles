@@ -166,6 +166,7 @@ bindsym $mod+slash exec "i3lock -c 000000ff"
 
 bindsym $mod+shift+f exec "flameshot full -p ~/Pictures/screenshots/"
 bindsym $mod+shift+g exec "flameshot gui -p ~/Pictures/screenshots/"
+bindsym $mod+shift+y exec "flameshot gui --raw  | tesseract stdin stdout -l eng  | xclip -in -selection clipboard"
 
 
 # resize window (you can also use the mouse for that)
